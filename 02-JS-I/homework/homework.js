@@ -28,10 +28,12 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código: 
-  str = "hola";
-  return str;
+  var palabra = str;
+  return palabra;
   
 }
+devolverString("hola");
+
 
 
 function suma(x, y) {
@@ -244,8 +246,12 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-
+  var palabra = "hello world" + str;
+  return palabra;
+  
 }
+devolverString("!");
+
 
 
 
@@ -253,8 +259,15 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
+  var nom = "";
+  var ape = "";
+
+  
   
 }
+combinarNombres();
+
+
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
